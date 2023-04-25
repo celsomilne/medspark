@@ -1,4 +1,4 @@
-from gpt_literature_scraper.SERP_api.Languages import Languages
+from gpt_literature_scraper.SearchAPI.Languages import Languages
 from serpapi import GoogleScholarSearch
 
 
