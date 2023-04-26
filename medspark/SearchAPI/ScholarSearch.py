@@ -1,8 +1,10 @@
-from gpt_literature_scraper.SearchAPI.Languages import Languages
+from medspark.SearchAPI.Languages import Languages
+from medspark.SearchAPI.SearchBase import SearchBase
+
 from serpapi import GoogleScholarSearch
 
 
-class ScholarSearch:
+class ScholarSearch(SearchBase):
 
     def __init__(self, api_key):
         self.api_key = api_key

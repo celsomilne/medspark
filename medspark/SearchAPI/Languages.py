@@ -1,4 +1,6 @@
 class Languages:
+    
+    # TODO : move this to a separate file
     _languages = {'af': 'Afrikaans',
         'ak': 'Akan',
         'sq': 'Albanian',
