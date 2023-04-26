@@ -1,4 +1,4 @@
-class Result:
+class SearchResult:
     """
     Result class, with the following attributes:
     result.entry_id: The result's unique identifier
@@ -38,7 +38,7 @@ class Result:
 
     @staticmethod
     def from_arxiv_result(arxiv_result):
-        return Result(
+        return SearchResult(
             entry_id=arxiv_result.entry_id,
             updated=arxiv_result.updated,
             published=arxiv_result.published,

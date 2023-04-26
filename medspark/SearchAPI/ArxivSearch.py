@@ -1,5 +1,5 @@
 import warnings
-from medspark.SearchAPI import Result
+from medspark.SearchAPI import SearchResult
 from medspark.SearchAPI.Languages import Languages
 from medspark.SearchAPI.SearchBase import SearchBase
 
@@ -37,7 +37,7 @@ class ArxivSearch(SearchBase):
         )
 
         # Return the results
-        return [Result.from_arxiv_result(x) for x in search.results()]
+        return [SearchResult.from_arxiv_result(x) for x in search.results()]
 
 
         
