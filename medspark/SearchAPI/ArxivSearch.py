@@ -1,3 +1,4 @@
+from medspark.SearchAPI.Languages import Languages
 from medspark.SearchAPI.SearchBase import SearchBase
 
 # Arxiv search class, extends SearchBase
